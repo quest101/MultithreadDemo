@@ -1,2 +1,2 @@
-# MultithreadDemo
-MultithreadDemo
+# JavaTutorial
+JavaTutorial
