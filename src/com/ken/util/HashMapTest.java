@@ -1,4 +1,4 @@
-package com.ken.concurrent;
+package com.ken.util;
 
 import java.util.HashMap;
 import java.util.Hashtable;

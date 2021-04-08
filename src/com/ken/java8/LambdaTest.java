@@ -1,6 +1,7 @@
 package com.ken.java8;
 
 public class LambdaTest {
+
     public static void main(String[] args) {
 
         LambdaTest tester = new LambdaTest();
