@@ -4,7 +4,6 @@ public class Fibonacci {
 
     public static void main(String[] args) throws Exception{
 
-
         long startTime = System.currentTimeMillis();
         Fibonacci fibonacci = new Fibonacci();
         long result = fibonacci();
@@ -59,6 +58,7 @@ public class Fibonacci {
         long end = System.currentTimeMillis();
         System.out.println("Elapsed time: " + (end - start));
     }
+
     private double fibImpl1(int n) {
         if (n < 0) throw new IllegalArgumentException("Must be >0");
         if (n==0) return 0d;
