@@ -45,7 +45,8 @@ public class BinarySearch {
     public static void main(String args[]){
         //非递归
         int []a={1,10,30,34,40,45,59};
-        int index=binarySearch(a, 30);
+        //int index=binarySearch(a, 30);
+        int index=binarySearch(a, 20);
         System.out.println(index);
         //递归
        /* int []a={1,10,30,34,40,45,59};
