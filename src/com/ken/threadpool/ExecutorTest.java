@@ -13,5 +13,13 @@ public class ExecutorTest {
         ExecutorService executorService = Executors.newFixedThreadPool(2);
 //        executorService.execute();
 //        executorService.submit();
+
+        ExecutorService threadPoolExecutor = Executors.newSingleThreadExecutor();
+
+        ExecutorService threadPoolExecutor1 = Executors.newCachedThreadPool();
+        ThreadPoolExecutor ThreadPoolExecutor2 =
+                new ThreadPoolExecutor(5,10,
+                        5,TimeUnit.SECONDS, new LinkedBlockingQueue<Runnable>());
+
     }
 }
